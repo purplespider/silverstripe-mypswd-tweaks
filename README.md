@@ -1,0 +1,40 @@
+# Purple Spider Web Design Custom SilverStripe Tweaks
+
+## Introduction
+
+This module contains many of the custom tweaks that I make to every SilverStripe site I do.
+
+While it is possible to disable specific tweaks by removing the individual extension, you probably don't want to use this module as is. Partly becase it automatically sets the SilverStripe Help link to my custom help site. However, please do take a look around and steal anything you may find useful!
+
+## Maintainer Contact ##
+ * James Cocker (ssmodulesgithub@pswd.biz)
+ 
+## Requirements
+ * Silverstripe 3.1+
+
+## Extensions
+
+* __CMSHelpLink:__ Sets the CMS help link to my custom build SilverStripe Help site.
+* __HideErrorPage:__ Hides error pages from the Add New page list.
+* __HideUserDefinedForm:__ Hides UserDefinedForm from the Add New page list.
+* __HideVirtualPage:__ Hides the VirtualPage type from the Add New page list.
+* __ImageAlignmentDefaults:__ Reverts the default aligment of an inserted image back to "On the left, with text wrapping around".
+* __ImageFunctions:__ Provides extra Image functions such as setMaxWidth & setMaxHeight.
+* __MemberTidy:__ Hides ofen unused Member fields such as Time & Date format.
+* __PageHideExtraMetaData:__ Hides MetaKeywords and ExtraMeta fields.
+* __PageSettingsHidePermissions:__ Hides Page permission fields such as CanViewType and CanEditType
+* __PageSettingsHideSearch:__ Hides the ShowInSearch settings field.
+* __SinglePageOnly:__ Can to applied to a page type, so only 1 can be created. Useful for keeping the Add New page type list tidy.
+
+## Page Types
+
+* __FirstChildRedirect:__ Automatically redirects to the first child of the page. Useful for top level pages with no content of their own.
+
+## Tasks
+
+* __CheckAllTemplates:__ Copy of Nicolaas Francken's CheckAllTemplates script for testing all tempalates/page types, see: https://github.com/sunnysideup/silverstripe-templateoverview/blob/master/code/tasks/CheckAllTemplates.php
+
+## Config
+
+* __Default Paste as Plain Text:__ Makes Past as Plain text in TinyMCE turned on by default. Useful to avoid all those stray tags caused by clients pasting from Word.
+* __Disable TinyMCE Icons:__ Disables useless icons such as underline, and brokedn Spell Checker.

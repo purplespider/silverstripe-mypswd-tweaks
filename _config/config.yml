@@ -1,0 +1,31 @@
+CMSHelpLink:
+    url: 
+Page:
+    extensions:
+        - PageHideExtraMetaData
+        - PageSettingsHideSearch
+        - PageSettingsHidePermissions
+Image:
+    extensions:
+        - ImageFunctions
+Member:
+    extensions:
+        - MemberTidy
+LeftAndMain:
+    extensions:
+        - CMSHelpLink
+HtmlEditorField_Toolbar:
+    extensions:
+        - ImageAlignmentDefaults
+ErrorPage:
+    extensions:
+        - HideErrorPage
+VirtualPage:
+    extensions:
+        - HideVirtualPage
+UserDefinedForm:
+    extensions:
+        - HideUserDefinedForm
+BlogHolder:
+    extensions:
+        - SinglePageOnly

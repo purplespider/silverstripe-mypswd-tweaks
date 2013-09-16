@@ -1,0 +1,14 @@
+{
+	"name": "purplespider/custom-pswd",
+	"description": "Custom SilverStripe tweaks to keep things tidy.",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "custom", "tweaks"],
+		"authors": [{
+			"name": "James Cocker",
+			"email": "ssmodules@pswd.biz"
+	}],
+	"require": {
+		"silverstripe/framework": "~3.1",
+		"silverstripe/cms": "~3.1"
+	}
+}

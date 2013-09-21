@@ -32,9 +32,16 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 ## Tasks
 
-* __CheckAllTemplates:__ Copy of Nicolaas Francken's CheckAllTemplates script for testing all tempalates/page types, see: https://github.com/sunnysideup/silverstripe-templateoverview/blob/master/code/tasks/CheckAllTemplates.php
+* __CheckAllTemplates:__ Copy of [Nicolaas Francken's CheckAllTemplates script](https://github.com/sunnysideup/silverstripe-templateoverview/blob/master/code/tasks/CheckAllTemplates.php) for testing all tempalates/page types.
 
 ## Config
 
 * __Default Paste as Plain Text:__ Makes Past as Plain text in TinyMCE turned on by default. Useful to avoid all those stray tags caused by clients pasting from Word.
 * __Disable TinyMCE Icons:__ Disables useless icons such as underline, and brokedn Spell Checker.
+* __Default Better Buttons Config File:__ A custom [Better Buttons](https://github.com/unclecheese/silverstripe-gridfield-betterbuttons), with "Save & Close" and "Save & Add" buttons for Create, and "Save & Close" and "Save & Next" for Edit.
+
+## CMS CSS
+
+* __Hides Error Pages:__ Hides error pages from the site tree.
+* __Differentiate Hidden Pages:__ Pages that have "Show in menus?" unchecked, are gray in the site tree.
+* __Dashboard Color Tweak:__ Tweaks the background colour of widgets in [Unclecheese's Dashboard module](https://github.com/unclecheese/silverstripe-dashboard), to match rest of CMS color scheme better. 

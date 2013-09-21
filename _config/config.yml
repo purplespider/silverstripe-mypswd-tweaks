@@ -29,3 +29,6 @@ UserDefinedForm:
 BlogHolder:
     extensions:
         - SinglePageOnly
+LeftAndMain:
+  extensions:
+    - LeftAndMainPageIconsExtension

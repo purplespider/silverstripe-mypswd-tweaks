@@ -18,8 +18,3 @@ li.class-ErrorPage {
 	background-image: -webkit-gradient(linear,0% 0,0% 100%,from(#f8f8f8),to(#d5e1e8)) !important;
 	background-image: -moz-linear-gradient(0% 100% 90deg,#f8f8f8,#d5e1e8) !important;
 }
-
-/* Hide Image Caption Input - As doesn't work very well */
-div#CaptionText {
-	
-}

@@ -4,7 +4,7 @@
 
 This module contains many of the custom tweaks that I make to every SilverStripe site I do.
 
-While it is possible to disable specific tweaks by removing the individual extension, you probably don't want to use this module as is. Partly becase it automatically sets the SilverStripe Help link to my custom help site. However, please do take a look around and steal anything you may find useful!
+While it is possible to disable specific tweaks by removing the individual extension, **you probably don't want to use this module as is**. Partly becase it automatically sets the SilverStripe Help link to my custom help site. However, please do take a look around and steal anything you may find useful!
 
 ## Maintainer Contact ##
  * James Cocker (ssmodulesgithub@pswd.biz)
@@ -14,7 +14,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 ## Extensions
 
-* __CMSHelpLink:__ Sets the CMS help link to my custom build SilverStripe Help site.
+* __CMSHelpLink:__ Sets the CMS help link to my custom built SilverStripe Help site.
 * __HideErrorPage:__ Hides error pages from the Add New page list.
 * __HideUserDefinedForm:__ Hides UserDefinedForm from the Add New page list.
 * __HideVirtualPage:__ Hides the VirtualPage type from the Add New page list.
@@ -39,7 +39,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 * __Default Paste as Plain Text:__ Makes Past as Plain text in TinyMCE turned on by default. Useful to avoid all those stray tags caused by clients pasting from Word.
 * __Disable TinyMCE Icons:__ Disables useless icons such as underline, and brokedn Spell Checker.
-* __Default Better Buttons Config File:__ A custom [Better Buttons](https://github.com/unclecheese/silverstripe-gridfield-betterbuttons), with "Save & Close" and "Save & Add" buttons for Create, and "Save & Close" and "Save & Next" for Edit.
+* __Default Better Buttons Config File:__ A custom [Better Buttons](https://github.com/unclecheese/silverstripe-gridfield-betterbuttons) config file, with "Save & Close" and "Save & Add" buttons for Create, and "Save & Close" and "Save & Next" for Edit.
 
 ## CMS CSS
 

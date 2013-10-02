@@ -22,7 +22,7 @@ if (class_exists('CustomHtmlEditorConfig')) {
 GD::set_default_quality(90);
 
 // Custom CSS for CMS
-LeftAndMain::require_css('custom-pswd/css/cms.css');
+LeftAndMain::require_css('mypswd-tweaks/css/cms.css');
 
 // Remove any extensions via the mysite/_config.php, eg.:
 // Page::remove_extension('PageHideExtraMetaData');

@@ -1,5 +1,5 @@
 {
-	"name": "purplespider/custom-pswd",
+	"name": "purplespider/mypswd-tweaks",
 	"description": "Custom SilverStripe tweaks to keep things tidy.",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "custom", "tweaks"],
@@ -10,5 +10,6 @@
 	"require": {
 		"silverstripe/framework": "~3.1",
 		"silverstripe/cms": "~3.1"
-	}
+	},
+	"replace": {"silverstripe/custom-pswd": "*"}
 }

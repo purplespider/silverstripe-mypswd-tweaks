@@ -14,6 +14,7 @@ Member:
 LeftAndMain:
     extensions:
         - CMSHelpLink
+        - LeftAndMainPageIconsExtension
 HtmlEditorField_Toolbar:
     extensions:
         - ImageAlignmentDefaults
@@ -29,6 +30,3 @@ UserDefinedForm:
 BlogHolder:
     extensions:
         - SinglePageOnly
-LeftAndMain:
-  extensions:
-    - LeftAndMainPageIconsExtension

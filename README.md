@@ -39,6 +39,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 * __Default Paste as Plain Text:__ Makes Past as Plain text in TinyMCE turned on by default. Useful to avoid all those stray tags caused by clients pasting from Word.
 * __Disable TinyMCE Icons:__ Disables useless icons such as underline, and broken Spell Checker.
+* __Simple HTMLEditor Config:__ For use with [nathancox/customhtmleditorfield](https://github.com/nathancox/silverstripe-customhtmleditorfield). Lets you assign a simplified set of icons to certain WYSIWYG fields.
 * __Custom [Better Buttons](https://github.com/unclecheese/silverstripe-gridfield-betterbuttons) Config File:__ With "Save & Close" and "Save & Add" buttons for Create, and "Save & Close" and "Save & Next" for Edit.
 
 ## CMS CSS

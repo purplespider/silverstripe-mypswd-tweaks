@@ -20,6 +20,6 @@ li.class-ErrorPage {
 }
 
 /* Fixes extra margin on HTMLEditor Right Title labels */
-.field label.right {
+.htmleditor.field label.right {
 	margin-left: 0;
 }

@@ -1,5 +1,10 @@
 CMSHelpLink:
     url: 
+GDBackend:
+  default_quality: 90
+LeftAndMain:
+  extra_requirements_css:
+    - 'mypswd-tweaks/css/cms.css'
 Page:
     extensions:
         - PageHideExtraMetaData

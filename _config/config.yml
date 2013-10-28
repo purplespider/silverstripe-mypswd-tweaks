@@ -1,10 +1,11 @@
+---
+Name: mypswd-tweaks
+After: 'framework/*','cms/*'
+---
 CMSHelpLink:
     url: 
 GDBackend:
   default_quality: 90
-LeftAndMain:
-  extra_requirements_css:
-    - 'mypswd-tweaks/css/cms.css'
 Page:
     extensions:
         - PageHideExtraMetaData
@@ -20,6 +21,8 @@ LeftAndMain:
     extensions:
         - CMSHelpLink
         - LeftAndMainPageIconsExtension
+    extra_requirements_css:
+        - mypswd-tweaks/css/cms.css
 HtmlEditorField_Toolbar:
     extensions:
         - ImageAlignmentDefaults

@@ -3,7 +3,9 @@
 class FirstChildRedirect extends Page {
 
 	static $description = "Automatically redirects to the first child of this page";
-	
+
+	static $icon = "mypswd-tweaks/images/icons/first-child-redirect";
+
 	public function getCMSFields() {
     	$fields = parent::getCMSFields();
  		

@@ -2,5 +2,5 @@
 
 class HideErrorPage extends DataExtension {
 	
-	static $hide_ancestor = 'ErrorPage';
+	private static $hide_ancestor = 'ErrorPage';
 }

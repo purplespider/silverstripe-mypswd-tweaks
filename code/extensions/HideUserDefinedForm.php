@@ -2,5 +2,5 @@
 
 class HideUserDefinedForm extends DataExtension {
 	
-	static $hide_ancestor = 'UserDefinedForm';
+	private static $hide_ancestor = 'UserDefinedForm';
 }

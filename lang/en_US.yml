@@ -1,4 +1,4 @@
 en_US:
   UserDefinedForm:
-    DESCRIPTION: 'Form Page'
-    SINGULARNAME: 'Single Submission Form'
+    DESCRIPTION: 'A page containing a custom form that e-mails each submission to a specified e-mail address'
+    SINGULARNAME: 'Form Page'

@@ -2,5 +2,5 @@
 
 class HideVirtualPage extends DataExtension {
 	
-	static $hide_ancestor = 'VirtualPage';
+	private static $hide_ancestor = 'VirtualPage';
 }

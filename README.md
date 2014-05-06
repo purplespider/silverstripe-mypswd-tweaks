@@ -25,6 +25,8 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __PageSettingsHidePermissions:__ Hides Page permission fields such as CanViewType and CanEditType
 * __PageSettingsHideSearch:__ Hides the ShowInSearch settings field.
 * __SinglePageOnly:__ Can to applied to a page type, so only 1 can be created. Useful for keeping the Add New page type list tidy.
+* __StaticPublisherUpdateHomepage:__ Updates the cache of the Homepage upon write (requires StaticPublisher module)
+* __StaticPublisherUpdateAll:__ Updates full pages cache upon write (requires StaticPublisher module)
 * __LeftAndMainPageIconsExtension:__ Fixes the [bug](https://github.com/silverstripe/silverstripe-cms/issues/798) that causes the site tree page icons to not load if the CMS is opened at a tab other than Pages (eg Dashboard). (Thanks @kinglozzer for the fix.)
 
 ## Page Types

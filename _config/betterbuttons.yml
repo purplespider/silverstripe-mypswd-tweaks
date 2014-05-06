@@ -19,7 +19,7 @@ BetterButtonsActions:
     Button_SaveAndClose: true
     Button_SaveAndNext: true
     Button_Delete: true
-    Button_FrontendLinks: true
+    Button_FrontendLinks: false
 
   versioned_create:
     Button_SaveDraft: true
@@ -29,7 +29,7 @@ BetterButtonsActions:
     Button_Publish: true
     Group_Versioning: true
     Button_Delete: true
-    Button_FrontendLinks: true
+    Button_FrontendLinks: false
 
 BetterButtonsGroups:
   SaveAnd:

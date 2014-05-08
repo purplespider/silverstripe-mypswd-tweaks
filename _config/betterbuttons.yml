@@ -3,44 +3,45 @@ Name: betterbuttons
 ---
 BetterButtonsUtils:
   edit:
-    Button_PrevNext: true
-    Button_New: false
+    BetterButtonAction_PrevNext: true
+    BetterButton_New: false
   versioned_edit:
-    Button_PrevNext: true
-    Button_New: true
+    BetterButtonAction_PrevNext: true
+    BetterButton_New: true
 
 BetterButtonsActions:
   create:
-    Button_Save: false
-    Button_SaveAndClose: true
-    Button_SaveAndAdd: true
+    BetterButton_Save: false
+    BetterButton_SaveAndClose: true
+    BetterButton_SaveAndAdd: true
   edit:
-    Button_Save: false
-    Button_SaveAndClose: true
-    Button_SaveAndNext: true
-    Button_Delete: true
-    Button_FrontendLinks: false
+    BetterButton_Save: false
+    BetterButton_SaveAndClose: true
+    BetterButton_SaveAndNext: true
+    BetterButton_Delete: true
+    BetterButtonAction_FrontendLinks: false
 
   versioned_create:
-    Button_SaveDraft: true
-    Button_Publish: true
+    BetterButton_SaveDraft: true
+    BetterButton_Publish: true
   versioned_edit:
-    Button_SaveDraft: true
-    Button_Publish: true
+    BetterButton_SaveDraft: true
+    BetterButton_Publish: true
     Group_Versioning: true
-    Button_Delete: true
-    Button_FrontendLinks: false
+    BetterButton_Delete: true
+    BetterButtonAction_FrontendLinks: false
 
 BetterButtonsGroups:
   SaveAnd:
     label: Save and...
     buttons:
-      Button_SaveAndAdd: true
-      Button_SaveAndClose: true
-      Button_SaveAndNext: true
-      Button_SaveAndPrev: true
+      BetterButton_SaveAndAdd: true
+      BetterButton_SaveAndClose: true
+      BetterButton_SaveAndNext: true
+      BetterButton_SaveAndPrev: true
   Versioning:
     label: Versioning...
     buttons:
-      Button_Rollback: true
-      Button_Unpublish: true
+      BetterButton_Rollback: true
+      BetterButton_Unpublish: true
+

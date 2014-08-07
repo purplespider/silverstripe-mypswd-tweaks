@@ -1,17 +1,23 @@
 ---
 Name: betterbuttons
 ---
+DataObject:
+  extensions:
+    - BetterButtonDataObject
+GridFieldDetailForm_ItemRequest:
+  extensions:
+    - GridFieldBetterButtonsItemRequest
 BetterButtonsUtils:
   edit:
-    BetterButtonAction_PrevNext: true
+    BetterButtonPrevNextAction: true
     BetterButton_New: false
   versioned_edit:
-    BetterButtonAction_PrevNext: true
+    BetterButtonPrevNextAction: true
     BetterButton_New: true
 
 BetterButtonsActions:
   create:
-    BetterButton_Save: false
+    BetterButton_Save: true
     BetterButton_SaveAndClose: true
     BetterButton_SaveAndAdd: true
   edit:
@@ -19,7 +25,7 @@ BetterButtonsActions:
     BetterButton_SaveAndClose: true
     BetterButton_SaveAndNext: true
     BetterButton_Delete: true
-    BetterButtonAction_FrontendLinks: false
+    BetterButtonFrontendLinksAction: false
 
   versioned_create:
     BetterButton_SaveDraft: true
@@ -29,7 +35,7 @@ BetterButtonsActions:
     BetterButton_Publish: true
     Group_Versioning: true
     BetterButton_Delete: true
-    BetterButtonAction_FrontendLinks: false
+    BetterButtonFrontendLinksAction: false
 
 BetterButtonsGroups:
   SaveAnd:
@@ -44,4 +50,3 @@ BetterButtonsGroups:
     buttons:
       BetterButton_Rollback: true
       BetterButton_Unpublish: true
-

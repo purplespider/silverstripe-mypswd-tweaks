@@ -18,6 +18,9 @@ if (class_exists('CustomHtmlEditorConfig')) {
 	$simpleConfig->setOption('theme_advanced_blockformats', 'p,Heading=h3');
 }
 
+// Changes Image backend to GD (required for SilverStripe Optimised Image module)
+Image::set_backend("OptimisedGDBackend");
+
 // Remove any extensions via the mysite/_config.php, eg.:
 // Page::remove_extension('PageHideExtraMetaData');
 // Page::remove_extension('PageSettingsHideSearch');

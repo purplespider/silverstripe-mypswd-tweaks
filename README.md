@@ -50,3 +50,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Hides Error Pages:__ Hides error pages from the site tree.
 * __Differentiate Hidden Pages:__ Pages that have "Show in menus?" unchecked, are grey in the site tree.
 * __Dashboard Color Tweak:__ Tweaks the background colour of widgets in [Unclecheese's Dashboard module](https://github.com/unclecheese/silverstripe-dashboard), to match rest of CMS color scheme better. 
+
+## Modules
+
+* __SilverStripe Optimised Image:__ Automatically runs any image resampled by SilverStripe through jpegoptim, optipng etc. (Thanks to @HeyDay !)

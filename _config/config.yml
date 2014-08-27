@@ -20,7 +20,6 @@ Member:
 LeftAndMain:
     extensions:
         - CMSHelpLink
-        - LeftAndMainPageIconsCustomExtension
     extra_requirements_css:
         - mypswd-tweaks/css/cms.css
 HtmlEditorField_Toolbar:

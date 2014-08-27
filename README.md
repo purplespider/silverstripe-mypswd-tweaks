@@ -28,7 +28,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __CannotCreatePage:__ Apply this extension to page types that you don't want non-admin users to be able to create.
 * __StaticPublisherUpdateHomepage:__ Updates the cache of the Homepage upon write (requires StaticPublisher module)
 * __StaticPublisherUpdateAll:__ Updates full pages cache upon write (requires StaticPublisher module)
-* __LeftAndMainPageIconsExtension:__ Fixes the [bug](https://github.com/silverstripe/silverstripe-cms/issues/798) that causes the site tree page icons to not load if the CMS is opened at a tab other than Pages (eg Dashboard). (Thanks @kinglozzer for the fix.)
+* __LeftAndMainPageIconsCustomExtension:__ Fixes the [bug](https://github.com/silverstripe/silverstripe-cms/issues/798) that causes the site tree page icons to not load if the CMS is opened at a tab other than Pages (eg Dashboard). (Thanks @kinglozzer for the fix.)
 
 ## Page Types
 

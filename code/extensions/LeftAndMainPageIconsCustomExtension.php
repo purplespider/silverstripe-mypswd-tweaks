@@ -5,7 +5,7 @@
  * @package cms
  * @subpackage controller
  */
-class LeftAndMainPageIconsExtension extends Extension {
+class LeftAndMainPageIconsCustomExtension extends Extension {
 
 	public function init() {
 		Requirements::customCSS($this->generatePageIconsCss());

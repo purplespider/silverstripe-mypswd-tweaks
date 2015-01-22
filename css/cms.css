@@ -23,3 +23,9 @@ li.class-ErrorPage {
 .htmleditor.field label.right {
 	margin-left: 0;
 }
+
+/* Aligns UploadField with other normal fields! */
+.ss-uploadfield .middleColumn {
+	float: left !important;
+	clear: none !important;
+}

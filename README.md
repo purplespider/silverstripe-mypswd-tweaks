@@ -49,6 +49,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Hides Error Pages:__ Hides error pages from the site tree.
 * __Differentiate Hidden Pages:__ Pages that have "Show in menus?" unchecked, are grey in the site tree.
 * __Dashboard Color Tweak:__ Tweaks the background colour of widgets in [Unclecheese's Dashboard module](https://github.com/unclecheese/silverstripe-dashboard), to match rest of CMS color scheme better. 
+* __UploadField Alignment Tweak:__ Aligns UploadFields to the right of their label, instead of below it, to match nearly all other field types!
 
 ## Modules
 

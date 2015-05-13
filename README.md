@@ -28,6 +28,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __CannotCreatePage:__ Apply this extension to page types that you don't want non-admin users to be able to create.
 * __StaticPublisherUpdateHomepage:__ Updates the cache of the Homepage upon write (requires StaticPublisher module)
 * __StaticPublisherUpdateAll:__ Updates full pages cache upon write (requires StaticPublisher module)
+* __BlockPageDelete:__ Disables abilty to delete a page that extends this. Applied to HomePage by default.
 
 ## Page Types
 
@@ -50,6 +51,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Differentiate Hidden Pages:__ Pages that have "Show in menus?" unchecked, are grey in the site tree.
 * __Dashboard Color Tweak:__ Tweaks the background colour of widgets in [Unclecheese's Dashboard module](https://github.com/unclecheese/silverstripe-dashboard), to match rest of CMS color scheme better. 
 * __UploadField Alignment Tweak:__ Aligns UploadFields to the right of their label, instead of below it, to match nearly all other field types!
+* __Hide Disabled Pages from Add New:__ Pages that can't be created are now hidden from the Add page list, rather than being greyed out.
 
 ## Modules
 

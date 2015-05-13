@@ -29,3 +29,8 @@ li.class-ErrorPage {
 	float: left !important;
 	clear: none !important;
 }
+
+/* Hides Pages that can't be created in Add page list */
+#Form_AddForm_PageType li.disabled { 
+    display: none !important;
+}

@@ -37,3 +37,6 @@ UserDefinedForm:
 BlogHolder:
     extensions:
         - SinglePageOnly
+HomePage:
+    extensions:
+        - BlockPageDelete

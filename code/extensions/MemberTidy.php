@@ -8,6 +8,7 @@ class MemberTidy extends DataExtension {
 	   $fields->removeFieldFromTab("Root.Main","DateFormat");
 	   $fields->removeFieldFromTab("Root.Main","HasConfiguredDashboard");
 	   $fields->removeFieldFromTab("Root.Main","Locale");
+       $fields->removeFieldFromTab("Root.Main","FailedLoginCount");
 	}
 	
 }

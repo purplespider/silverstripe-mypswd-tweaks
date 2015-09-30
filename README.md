@@ -28,7 +28,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __CannotCreatePage:__ Apply this extension to page types that you don't want non-admin users to be able to create.
 * __StaticPublisherUpdateHomepage:__ Updates the cache of the Homepage upon write (requires StaticPublisher module)
 * __StaticPublisherUpdateAll:__ Updates full pages cache upon write (requires StaticPublisher module)
-* __BlockPageDelete:__ Disables abilty to delete a page that extends this. Applied to HomePage by default.
+* __BlockPageDelete:__ Disables ability to delete a page that extends this. Applied to HomePage by default.
 
 ## Page Types
 

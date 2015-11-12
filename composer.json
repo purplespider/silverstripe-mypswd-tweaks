@@ -2,11 +2,16 @@
 	"name": "purplespider/mypswd-tweaks",
 	"description": "Custom SilverStripe tweaks to keep things tidy.",
 	"type": "silverstripe-module",
+	"homepage": "https://github.com/purplespider/silverstripe-mypswd-tweaks",
 	"keywords": ["silverstripe", "custom", "tweaks"],
-		"authors": [{
-			"name": "James Cocker",
-			"email": "ssmodules@pswd.biz"
+	"license": "BSD-3-Clause",
+	"authors": [{
+		"name": "James Cocker",
+		"email": "ssmodules@pswd.biz"
 	}],
+	"support": {
+		"issues": "https://github.com/purplespider/silverstripe-mypswd-tweaks/issues"
+	},
 	"require": {
 		"silverstripe/framework": "~3.1",
 		"silverstripe/cms": "~3.1",

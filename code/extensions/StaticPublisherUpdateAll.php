@@ -1,13 +1,13 @@
 <?php
-  
-class StaticPublisherUpdateAll extends DataExtension {
+
+class StaticPublisherUpdateAll extends DataExtension
+{
     
-   function onAfterWrite() {
+    public function onAfterWrite()
+    {
+        $sp = new FilesystemPublisher();
+        $sp->publishPages(Page::get()->first()->allPagesToCache());
 
-	    $sp = new FilesystemPublisher();
-	    $sp->publishPages(Page::get()->first()->allPagesToCache());
-
-	    parent::onAfterWrite();
-	}
-
+        parent::onAfterWrite();
+    }
 }

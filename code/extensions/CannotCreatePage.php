@@ -1,7 +1,9 @@
 <?php
-class CannotCreatePage extends DataExtension {
+class CannotCreatePage extends DataExtension
+{
 
-	function canCreate($members = null) {
-		return false;
-	}
+    public function canCreate($members = null)
+    {
+        return false;
+    }
 }

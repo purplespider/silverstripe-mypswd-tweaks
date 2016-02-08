@@ -1,6 +1,7 @@
 <?php
 
-class HideErrorPage extends DataExtension {
-	
-	private static $hide_ancestor = 'ErrorPage';
+class HideErrorPage extends DataExtension
+{
+    
+    private static $hide_ancestor = 'ErrorPage';
 }

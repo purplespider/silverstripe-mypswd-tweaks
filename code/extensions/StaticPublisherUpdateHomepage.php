@@ -1,16 +1,16 @@
 <?php
-  
-class StaticPublisherUpdateHomepage extends DataExtension {
+
+class StaticPublisherUpdateHomepage extends DataExtension
+{
     
-   function onAfterWrite() {
+    public function onAfterWrite()
+    {
+        $urls = array();
+        $urls[] = ""; // Homepage
 
-   		$urls = array();
-   		$urls[] = ""; // Homepage
+        $sp = new FilesystemPublisher();
+        $sp->publishPages($urls);
 
-	    $sp = new FilesystemPublisher();
-	    $sp->publishPages($urls);
-
-	    parent::onAfterWrite();
-	}
-
+        parent::onAfterWrite();
+    }
 }

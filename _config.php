@@ -39,6 +39,9 @@ if (class_exists('OptimisedGDBackend')) {
 	Image::set_backend("OptimisedGDBackend");
 }
 
+// Sets Admin E-mail so that Forgotten password requests don't get sent to spam
+Email::setAdminEmail('noreply@'.$_SERVER['HTTP_HOST']);
+
 // Remove any extensions via the mysite/_config.php, eg.:
 // Page::remove_extension('PageHideExtraMetaData');
 // Page::remove_extension('PageSettingsHideSearch');

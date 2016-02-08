@@ -44,6 +44,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Disable TinyMCE Icons:__ Disables useless icons such as underline, and broken Spell Checker.
 * __Simple HTMLEditor Config:__ For use with [nathancox/customhtmleditorfield](https://github.com/nathancox/silverstripe-customhtmleditorfield). Lets you assign a simplified set of icons to certain WYSIWYG fields.
 * __Custom [Better Buttons](https://github.com/unclecheese/silverstripe-gridfield-betterbuttons) Config File:__ With "Save & Close" and "Save & Add" buttons for Create, and "Save & Close" and "Save & Next" for Edit.
+* __Set Admin Email:__ Set's the Admin Email address to a noreply address for the current domain. Better than no address at all, which can result in forgotten password e-mails flagged as spam.
 
 ## CMS CSS
 
@@ -52,6 +53,10 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Dashboard Color Tweak:__ Tweaks the background colour of widgets in [Unclecheese's Dashboard module](https://github.com/unclecheese/silverstripe-dashboard), to match rest of CMS color scheme better. 
 * __UploadField Alignment Tweak:__ Aligns UploadFields to the right of their label, instead of below it, to match nearly all other field types!
 * __Hide Disabled Pages from Add New:__ Pages that can't be created are now hidden from the Add page list, rather than being greyed out.
+
+## Templates
+* __ForgotPasswordEmail.ss:__ Changes the wording and format of the forgotten password e-mail to make it a bit friendlier. 
+* __GenericEmail.ss:__ Sets font to sans-serif
 
 ## Modules
 

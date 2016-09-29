@@ -53,6 +53,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Dashboard Color Tweak:__ Tweaks the background colour of widgets in [Unclecheese's Dashboard module](https://github.com/unclecheese/silverstripe-dashboard), to match rest of CMS color scheme better. 
 * __UploadField Alignment Tweak:__ Aligns UploadFields to the right of their label, instead of below it, to match nearly all other field types!
 * __Hide Disabled Pages from Add New:__ Pages that can't be created are now hidden from the Add page list, rather than being greyed out.
+* __Align HTMLEditorFields with Standard Fields:__ Allows you to align select HTMLEditorFields with standard fields, rather than them always being full width. Simply add ->addExtraClass('nofullwidth')
 
 ## Templates
 * __ForgotPasswordEmail.ss:__ Changes the wording and format of the forgotten password e-mail to make it a bit friendlier. 

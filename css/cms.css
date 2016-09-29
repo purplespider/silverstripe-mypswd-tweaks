@@ -39,3 +39,9 @@ li.class-ErrorPage {
 #Form_AddForm_PageType li.disabled { 
     display: none !important;
 }
+
+/* Apply .nofullwidth class to an HTMLEditorField to make it align with standard fields */
+.htmleditor.nofullwidth .middleColumn {
+  margin-left: 184px;
+  clear: none;
+}

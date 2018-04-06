@@ -13,14 +13,12 @@
 		"issues": "https://github.com/purplespider/silverstripe-mypswd-tweaks/issues"
 	},
 	"require": {
-		"silverstripe/framework": "~3.3",
-		"silverstripe/cms": "~3.3",
-		"heyday/silverstripe-optimisedimage": "2.2.*"
+		"silverstripe/framework": "~4.1",
+		"silverstripe/cms": "~4.1"
 	},
 	"extra": {
 		"expose": [
 			 "client/dist"
 		]
-	},
-	"replace": {"silverstripe/custom-pswd": "*"}
+	}
 }

@@ -1,4 +1,10 @@
 <?php
+
+namespace PurpleSpider\SilverStripe\SSTweaks;
+
+use SilverStripe\ORM\DataObject;
+use SilverStripe\ORM\DataExtension;
+
 class SinglePageOnly extends DataExtension
 {
 

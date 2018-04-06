@@ -1,9 +1,0 @@
----
-After: 'silverstripe-optimisedimage/config#core'
----
-ImageOptimiserService:
-  enabledCommands:
-    - jpegoptim
-  availableCommands:
-    jpg:
-      jpegoptim: '%s/jpegoptim -p --strip-all --all-progressive %s'

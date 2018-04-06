@@ -1,0 +1,19 @@
+/* Hide ErrorPages from CMS */
+li.class-SilverStripe_ErrorPage_ErrorPage {
+	display: none !important;
+}
+
+/* Hides "Note: Some page types are not allowed for this selection" message */
+#Form_AddForm .message-restricted {
+	display: none !important;
+}
+
+/* Hides Pages that can't be created in Add page list */
+#Form_AddForm_PageType div.disabled { 
+    display: none !important;
+}
+
+/* Gray out Pages hidden from menus */
+.notinmenu > a {
+	color: #89878b !important;
+}

@@ -1,5 +1,11 @@
 <?php
-class BlockPageDelete extends DataExtension
+
+namespace PurpleSpider\SilverStripe\SSTweaks;
+
+use SilverStripe\ORM\DataExtension;
+use SilverStripe\Security\Permission;
+
+class BlockPageArchive extends DataExtension
 {
 
     // Stops Page Being Deleted
@@ -12,7 +18,7 @@ class BlockPageDelete extends DataExtension
     }
 
     // Stops Page Being Deleted from Live
-    public function canDeleteFromLive($members = null)
+    public function canUnpublish($members = null)
     {
         if (Permission::check('ADMIN')) {
             return true;

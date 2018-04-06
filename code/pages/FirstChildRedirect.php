@@ -1,24 +1,33 @@
 <?php
 
+namespace PurpleSpider\SilverStripe\SSTweaks;
+
+use Page;
+use PageController;
+use SilverStripe\Forms\LiteralField;
+use SilverStripe\Control\Controller;
+
 class FirstChildRedirect extends Page
 {
 
     private static $description = "Automatically redirects to the first child of this page";
 
-    private static $icon = "mypswd-tweaks/images/icons/first-child-redirect";
+    private static $icon = 'purplespider/mypswd-tweaks: /client/dist/images/icons/first-child-redirect.gif';
 
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
         
-        $fields->addFieldToTab("Root.Main", new LiteralField("Desc", "<h2>First Child Redirect Page</h2><p>This page automatically redirects to it's first child page.</p>"));
+        $fields->addFieldToTab("Root.Main", new LiteralField("Desc", "<h2>First Child Redirect Page</h2><p>This page has no content, it has the type <strong>First Child Redirect Page</strong> and so automatically redirects to it's first child page.</p><p>
+        To change this, edit the <strong>Page type</strong> via <strong>Settings</strong>, in the top right.
+        </p>"),'Metadata');
         $fields->removeFieldFromTab("Root.Main", "Content");
         
         return $fields;
     }
 }
 
-class FirstChildRedirect_Controller extends Page_Controller
+class FirstChildRedirect_Controller extends PageController
 {
     
     public function init()

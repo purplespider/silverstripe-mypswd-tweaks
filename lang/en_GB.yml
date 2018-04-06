@@ -1,4 +1,0 @@
-en_GB:
-  UserDefinedForm:
-    SINGULARNAME: 'Form Page'
-    DESCRIPTION: 'A page containing a custom form that e-mails each submission to a specified e-mail address'

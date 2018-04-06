@@ -1,42 +1,27 @@
 ---
-Name: mypswd-tweaks
-After: 'framework/*','cms/*'
+Name: sstweaks
 ---
-CMSHelpLink:
-    url: 
-GDBackend:
-  default_quality: 90
+SilverStripe\Admin\LeftAndMain:
+  help_link: 'http://silverstripe.purplespider.com'
+  extra_requirements_css: 
+    - 'public/resources/vendor/purplespider/ss-tweaks/client/dist/cms-tweaks.css'
+SilverStripe\Control\Email\Email:
+  admin_email: noreply@website-notify.com
+SilverStripe\CMS\Model\VirtualPage:
+  extensions:
+    - PurpleSpider\SilverStripe\SSTweaks\CannotCreatePage
+SilverStripe\ErrorPage\ErrorPage:
+  extensions:
+    - PurpleSpider\SilverStripe\SSTweaks\CannotCreatePage
+SilverStripe\Assets\File:
+  extensions:
+    - PurpleSpider\SilverStripe\SSTweaks\AllowFileUploads
 Page:
+  extensions:
+    - PurpleSpider\SilverStripe\SSTweaks\PageHideDependent
+    - PurpleSpider\SilverStripe\SSTweaks\PageHideExtraMeta
+    - PurpleSpider\SilverStripe\SSTweaks\PageSettingsHidePermissions
+    - PurpleSpider\SilverStripe\SSTweaks\PageSettingsHideSearch
+PSWDSite\HomePage:
     extensions:
-        - PageHideExtraMetaData
-        - PageSettingsHideSearch
-        - PageSettingsHidePermissions
-Image:
-    extensions:
-        - ImageFunctions
-Member:
-    extensions:
-        - MemberTidy
-LeftAndMain:
-    extensions:
-        - CMSHelpLink
-    extra_requirements_css:
-        - mypswd-tweaks/css/cms.css
-HtmlEditorField_Toolbar:
-    extensions:
-        - ImageAlignmentDefaults
-ErrorPage:
-    extensions:
-        - HideErrorPage
-VirtualPage:
-    extensions:
-        - HideVirtualPage
-UserDefinedForm:
-    extensions:
-        - HideUserDefinedForm
-BlogHolder:
-    extensions:
-        - SinglePageOnly
-HomePage:
-    extensions:
-        - BlockPageDelete
+        - PurpleSpider\SilverStripe\SSTweaks\BlockPageArchive

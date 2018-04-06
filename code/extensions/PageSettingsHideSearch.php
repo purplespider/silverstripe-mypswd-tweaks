@@ -1,5 +1,10 @@
 <?php
 
+namespace PurpleSpider\SilverStripe\SSTweaks;
+
+use SilverStripe\ORM\DataExtension;
+use SilverStripe\Forms\FieldList;
+
 class PageSettingsHideSearch extends DataExtension
 {
 

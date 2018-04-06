@@ -1,7 +1,7 @@
 {
 	"name": "purplespider/mypswd-tweaks",
 	"description": "Custom SilverStripe tweaks to keep things tidy.",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/purplespider/silverstripe-mypswd-tweaks",
 	"keywords": ["silverstripe", "custom", "tweaks"],
 	"license": "BSD-3-Clause",
@@ -16,6 +16,11 @@
 		"silverstripe/framework": "~3.3",
 		"silverstripe/cms": "~3.3",
 		"heyday/silverstripe-optimisedimage": "2.2.*"
+	},
+	"extra": {
+		"expose": [
+			 "client/dist"
+		]
 	},
 	"replace": {"silverstripe/custom-pswd": "*"}
 }

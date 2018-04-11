@@ -44,6 +44,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Hides Error Pages:__ Hides error pages from the site tree.
 * __Differentiate Hidden Pages:__ Pages that have "Show in menus?" unchecked, are grey in the site tree.
 * __Hide Disabled Pages from Add New:__ Pages that can't be created are now hidden from the Add page list, rather than being greyed out.
+* __Hide GridField Pagination Details:__ From above a GridField only, to avoid the gap below the GridField title.
 
 ## Templates
 * __Email.ss:__ Sets font to sans-serif

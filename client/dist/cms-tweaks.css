@@ -17,3 +17,8 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 .notinmenu > a {
 	color: #89878b !important;
 }
+
+/* Hide pagination details from top of GridField */
+.grid-field__title + div > .pagination-records-number {
+	display: none;
+}

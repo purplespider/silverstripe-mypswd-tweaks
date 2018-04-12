@@ -18,7 +18,12 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 	color: #89878b !important;
 }
 
-/* Hide pagination details from top of GridField */
+/* GridField: Hide pagination details from top */
 .grid-field__title + div > .pagination-records-number {
 	display: none;
+}
+
+/* GridField: Align cell contents to middle */
+.grid-field__table td {
+	vertical-align: middle;
 }

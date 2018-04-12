@@ -45,6 +45,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Differentiate Hidden Pages:__ Pages that have "Show in menus?" unchecked, are grey in the site tree.
 * __Hide Disabled Pages from Add New:__ Pages that can't be created are now hidden from the Add page list, rather than being greyed out.
 * __Hide GridField Pagination Details:__ From above a GridField only, to avoid the gap below the GridField title.
+* __GridField: Vertical Align Middle:__ Set cells of GridField to vertical align middle. Looks nicer, especially with centered icons and drag handles.
 
 ## Templates
 * __Email.ss:__ Sets font to sans-serif

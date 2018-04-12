@@ -14,7 +14,8 @@
 	},
 	"require": {
 		"silverstripe/framework": "~4.1",
-		"silverstripe/cms": "~4.1"
+		"silverstripe/cms": "~4.1",
+		"gorriecoe/silverstripe-devbuildkey": "*"
 	},
 	"extra": {
 		"expose": [

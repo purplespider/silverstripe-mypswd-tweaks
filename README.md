@@ -50,3 +50,6 @@ While it is possible to disable specific tweaks by removing the individual exten
 ## Templates
 * __Email.ss:__ Sets font to sans-serif
 * __ForgotPasswordEmail.ss:__ Changes the wording and format of the forgotten password e-mail to make it a bit friendlier. 
+
+## Modules
+* __Silverstripe dev build key by gorriecoe:__ Provides the ability to press Alt+D to do a Dev/Build

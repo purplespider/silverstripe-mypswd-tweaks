@@ -27,3 +27,21 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 .grid-field__table td {
 	vertical-align: middle;
 }
+
+/* Make field labels bold to encrease contrast and clarity between data and labels */
+.form__field-label {
+	font-weight: 500 !important;
+	font-size: 12px !important;
+}
+
+/* Metadata box header: bold for match field labels*/
+.ui-accordion-header {
+	font-weight: 500 !important;
+}
+
+/* CMS Tabs: Increase L/R padding */
+.ui-tabs .ui-tabs-nav li a {
+	padding-left: .7rem;
+	padding-right: .7rem;
+	font-weight: 500 !important;
+}

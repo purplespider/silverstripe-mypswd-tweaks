@@ -17,7 +17,8 @@
 		"silverstripe/cms": "^4.1",
 		"gorriecoe/silverstripe-devbuildkey": "*",
 		"wilr/silverstripe-googlesitemaps": "*",
-		"jonom/silverstripe-betternavigator": "*"
+		"jonom/silverstripe-betternavigator": "*",
+		"axllent/silverstripe-email-obfuscator": "*"
 	},
 	"extra": {
 		"expose": [

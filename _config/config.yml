@@ -9,19 +9,19 @@ SilverStripe\Control\Email\Email:
   admin_email: noreply@website-notify.com
 SilverStripe\CMS\Model\VirtualPage:
   extensions:
-    - PurpleSpider\SilverStripe\SSTweaks\CannotCreatePage
+    - PurpleSpider\SSTweaks\CannotCreatePage
 SilverStripe\ErrorPage\ErrorPage:
   extensions:
-    - PurpleSpider\SilverStripe\SSTweaks\CannotCreatePage
+    - PurpleSpider\SSTweaks\CannotCreatePage
 SilverStripe\Assets\File:
   extensions:
-    - PurpleSpider\SilverStripe\SSTweaks\AllowFileUploads
+    - PurpleSpider\SSTweaks\AllowFileUploads
 Page:
   extensions:
-    - PurpleSpider\SilverStripe\SSTweaks\PageHideDependent
-    - PurpleSpider\SilverStripe\SSTweaks\PageHideExtraMeta
-    - PurpleSpider\SilverStripe\SSTweaks\PageSettingsHidePermissions
-    - PurpleSpider\SilverStripe\SSTweaks\PageSettingsHideSearch
+    - PurpleSpider\SSTweaks\PageHideDependent
+    - PurpleSpider\SSTweaks\PageHideExtraMeta
+    - PurpleSpider\SSTweaks\PageSettingsHidePermissions
+    - PurpleSpider\SSTweaks\PageSettingsHideSearch
 PSWDSite\HomePage:
     extensions:
-        - PurpleSpider\SilverStripe\SSTweaks\BlockPageArchive
+        - PurpleSpider\SSTweaks\BlockPageArchive

@@ -1,6 +1,6 @@
 <?php
 
-namespace PurpleSpider\SilverStripe\SSTweaks;
+namespace PurpleSpider\SSTweaks;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\FieldList;

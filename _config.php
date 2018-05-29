@@ -9,5 +9,6 @@ $editor->removeButtons('formatselect');
 // Stops format styles being automatically imported from CSS, but enables ability to add custom styles using 'formats'
 $editor->setOptions([
   'importcss_append' => true,
-  'importcss_selector_filter' => 'abc123'
+  'importcss_selector_filter' => 'abc123',
+  'valid_styles' => ["*" => 'text-align'],
 ]);

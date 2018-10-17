@@ -16,6 +16,9 @@ SilverStripe\ErrorPage\ErrorPage:
 SilverStripe\Assets\File:
   extensions:
     - PurpleSpider\SSTweaks\AllowFileUploads
+SilverStripe\Security\Member:
+  extensions:
+    - PurpleSpider\SSTweaks\MemberTidy
 Page:
   extensions:
     - PurpleSpider\SSTweaks\PageHideDependent

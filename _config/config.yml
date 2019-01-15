@@ -28,3 +28,5 @@ Page:
 PSWDSite\HomePage:
     extensions:
         - PurpleSpider\SSTweaks\BlockPageArchive
+gorriecoe\DevBuildKey\DevBuildKey:
+    run_in_background: true

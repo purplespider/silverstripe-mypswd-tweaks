@@ -53,3 +53,6 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 ## Modules
 * __Silverstripe dev build key by gorriecoe:__ Provides the ability to press Alt+D to do a Dev/Build
+
+## Tasks
+* __Generate CMS Thumbnails:__ A task to run generateThumbnails() on each File object. For use after the MigrateFileTask if using `legacy_filenames`

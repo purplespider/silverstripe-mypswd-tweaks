@@ -32,6 +32,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 
 ## Config
+* __E-mail Error Log Alerts:__ logging.yml e-mails any error that occurs on a 'live' site.
 * __CMS Help Link:__ Sets the CMS help link to my custom built SilverStripe Help site.
 * __Hide Error Page:__ Hides Error Page from the Add New page list (uses CannotCreatePage extension)
 * __Hide Virtual Page:__ Hides Virtual Page from the Add New page list (uses CannotCreatePage extension)

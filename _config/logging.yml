@@ -1,0 +1,18 @@
+---
+Only:
+  environment: 'live'
+---
+SilverStripe\Core\Injector\Injector:
+  Psr\Log\LoggerInterface: 
+    calls:
+      MailHandler: [ pushHandler, [ %$MailHandler ] ]
+  MailHandler:
+      class: Monolog\Handler\NativeMailerHandler
+      constructor:
+        - sserrors@pswd.biz
+        - %message%
+        - sserrors@pswd.biz
+        - error
+      properties:
+        ContentType: text/html
+        Formatter: %$SilverStripe\Logging\DetailedErrorFormatter

@@ -2,7 +2,7 @@
 
 // TinyMCE Tweaks
 HtmlEditorConfig::get('cms')->setOption('theme_advanced_disable', 'underline,justifyfull,pasteword,spellchecker');
-HtmlEditorConfig::get('cms')->setOption('valid_styles', array('*' => 'text-align'));
+HtmlEditorConfig::get('cms')->setOption('valid_styles', array('*' => 'text-align', 'div' => 'width'));
 HtmlEditorConfig::get('cms')// Add support for HTML5 elements in tinymce editor
     ->setOption('extended_valid_elements',
         '+article,aside,audio[src|preload<none?metadata?auto|autoplay<autoplay|loop<loop|controls<controls|mediagroup],canvas[width,height],'

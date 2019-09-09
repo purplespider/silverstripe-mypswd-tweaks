@@ -12,7 +12,7 @@ class FirstChildRedirect extends Page
 
     private static $description = "Automatically redirects to the first child of this page";
 
-    private static $icon = 'purplespider/mypswd-tweaks: /client/dist/images/icons/first-child-redirect.gif';
+    private static $icon_class = 'font-icon-p-redirect';
 
     public function getCMSFields()
     {

@@ -19,6 +19,7 @@ SilverStripe\Assets\File:
 SilverStripe\Security\Member:
   extensions:
     - PurpleSpider\SSTweaks\MemberTidy
+    - PurpleSpider\SSTweaks\MemberLog
 Page:
   extensions:
     - PurpleSpider\SSTweaks\PageHideDependent

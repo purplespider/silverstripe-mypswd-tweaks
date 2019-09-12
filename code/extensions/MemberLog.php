@@ -2,10 +2,11 @@
 
 namespace PurpleSpider\SSTweaks;
 
-use SilverStripe\Forms\ReadonlyField;
-use SilverStripe\Security\Security;
 use SilverStripe\ORM\DB;
+use SilverStripe\Forms\FieldList;
 use SilverStripe\ORM\DataExtension;
+use SilverStripe\Security\Security;
+use SilverStripe\Forms\ReadonlyField;
 
 class MemberLog extends DataExtension
 {

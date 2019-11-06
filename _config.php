@@ -34,10 +34,8 @@ if (class_exists('CustomHtmlEditorConfig')) {
 	$simpleConfig->setOption('theme_advanced_blockformats', 'p,Heading=h3');
 }
 
-// Changes Image backend to GD (required for SilverStripe Optimised Image module)
-if (class_exists('OptimisedGDBackend')) { 
-	Image::set_backend("OptimisedGDBackend");
-}
+// Changes Image backend to Imagick
+if(class_exists('Imagick')){Image::set_backend('ImagickBackend');}
 
 // Sets Admin E-mail so that Forgotten password requests don't get sent to spam
 Email::setAdminEmail('noreply@'.$_SERVER['HTTP_HOST']);

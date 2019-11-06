@@ -37,6 +37,11 @@ if (class_exists('CustomHtmlEditorConfig')) {
 // Changes Image backend to Imagick
 if(class_exists('Imagick')){Image::set_backend('ImagickBackend');}
 
+// Enables Optimised Image module to set a max size for uploaded images
+if (class_exists('OptimisedImagickBackend')) { 
+	Image::set_backend("OptimisedImagickBackend");
+}
+
 // Sets Admin E-mail so that Forgotten password requests don't get sent to spam
 Email::setAdminEmail('noreply@'.$_SERVER['HTTP_HOST']);
 

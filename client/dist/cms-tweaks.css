@@ -45,3 +45,19 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 	padding-right: .7rem;
 	font-weight: 500 !important;
 }
+
+/* Toast notification adjustments - stops them overlapping top tabs */
+.notice-wrap {
+	top:64px;
+}
+
+.notice-item.good {
+	border-color: #008B00;
+}
+
+.notice-item {
+	font-size: 12px;
+	min-height: 50px;
+	border-left: 5px solid;
+	box-shadow: 0px 0px 10px #bbb;
+}

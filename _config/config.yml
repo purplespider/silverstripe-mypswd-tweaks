@@ -24,7 +24,6 @@ Page:
   extensions:
     - PurpleSpider\SSTweaks\PageHideDependent
     - PurpleSpider\SSTweaks\PageHideExtraMeta
-    - PurpleSpider\SSTweaks\PageSettingsHidePermissions
     - PurpleSpider\SSTweaks\PageSettingsHideSearch
 PSWDSite\HomePage:
     extensions:

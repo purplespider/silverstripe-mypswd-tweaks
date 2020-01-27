@@ -57,3 +57,6 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 ## Tasks
 * __Generate CMS Thumbnails:__ A task to run generateThumbnails() on each File object. For use after the MigrateFileTask if using `legacy_filenames`
+
+## Lang
+* __Renames User Defined Form:__ To a more user friendly "Form Page".

@@ -11,7 +11,7 @@ class CannotCreatePage extends DataExtension
   
     public function canCreate($member = null, $context = array())
     {
-        if ($config = $this->owner->config()->get('can_create_override')) {
+        if ($config = $this->owner->config()->get('sstweaks_can_create')) {
             return true;
         }
         

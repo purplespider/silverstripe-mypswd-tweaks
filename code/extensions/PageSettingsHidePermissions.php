@@ -10,7 +10,7 @@ class PageSettingsHidePermissions extends DataExtension
 
     public function updateSettingsFields(FieldList $fields)
     {
-        if (!$this->owner->config()->get('show_permissions')) {
+        if (!$this->owner->config()->get('show_permissions_override')) {
             $fields->removeFieldFromTab("Root.Settings", "CanViewType");
             $fields->removeFieldFromTab("Root.Settings", "ViewerGroups");
             $fields->removeFieldFromTab("Root.Settings", "CanEditType");

@@ -36,7 +36,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __CMS Help Link:__ Sets the CMS help link to my custom built SilverStripe Help site.
 * __Hide Error Page:__ Hides Error Page from the Add New page list (uses CannotCreatePage extension)
 * __Hide Virtual Page:__ Hides Virtual Page from the Add New page list (uses CannotCreatePage extension)
-* __Set Admin Email:__ Set's the Admin Email address to a noreply address for the current domain. Better than no address at all, which can result in forgotten password e-mails flagged as spam.
+* __Set Admin Email:__ Set's the Admin Email address to a noreply address for which I control the SPF. Better than no address at all, which can result in forgotten password e-mails flagged as spam.
 * __Disable TinyMCE Icons:__ Disables some icons such as underline.
 * __Enable TinyMCE Styles:__ Enables the Styles dropdown for custom styles.
 
@@ -53,7 +53,11 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __ForgotPasswordEmail.ss:__ Changes the wording and format of the forgotten password e-mail to make it a bit friendlier. 
 
 ## Modules
-* __Silverstripe dev build key by gorriecoe:__ Provides the ability to press Alt+D to do a Dev/Build
+* __gorriecoe/silverstripe-devbuildkey:__ Provides the ability to press Alt+D to do a Dev/Build
+* __wilr/silverstripe-googlesitemaps:__ Lets CMS users set certain (e.g. hidden) pages to not be indexed.
+* __jonom/silverstripe-betternavigator:__ Added frontend flag for Draft/Live and shortcuts.
+* __axllent/silverstripe-email-obfuscator:__ Automatically obfucates email addresses added in HTMLText fields/templates.
+* __kinglozzer/metatitle:__ Adds editable metatitle field for each page.
 
 ## Tasks
 * __Generate CMS Thumbnails:__ A task to run generateThumbnails() on each File object. For use after the MigrateFileTask if using `legacy_filenames`

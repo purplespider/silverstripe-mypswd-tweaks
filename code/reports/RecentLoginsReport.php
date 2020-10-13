@@ -138,10 +138,6 @@ class RecentLoginsReport extends Report
         $gridField->setModelClass(self::class);
         $gridConfig = $gridField->getConfig();
         $gridConfig->removeComponentsByType([GridFieldPrintButton::class, GridFieldExportButton::class]);
-        $gridConfig->addComponents(
-            new GridFieldPrintReportButton('buttons-before-left'),
-            new GridFieldExportReportButton('buttons-before-left')
-        );
         return $gridField;
     }
 }

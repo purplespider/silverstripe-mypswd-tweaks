@@ -5,14 +5,14 @@ Only:
 SilverStripe\Core\Injector\Injector:
   Psr\Log\LoggerInterface: 
     calls:
-      MailHandler: [ pushHandler, [ %$MailHandler ] ]
+      MailHandler: [ pushHandler, [ '%$MailHandler' ] ]
   MailHandler:
       class: Monolog\Handler\NativeMailerHandler
       constructor:
         - sserrors@pswd.biz
-        - %message%
+        - '%message%'
         - sserrors@pswd.biz
         - error
       properties:
         ContentType: text/html
-        Formatter: %$SilverStripe\Logging\DetailedErrorFormatter
+        Formatter: '%$SilverStripe\Logging\DetailedErrorFormatter'

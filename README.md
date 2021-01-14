@@ -61,6 +61,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 ## Tasks
 * __Generate CMS Thumbnails:__ A task to run generateThumbnails() on each File object. For use after the MigrateFileTask if using `legacy_filenames`
+* __Send Test Email:__ A task to instantly send a test email to quickly check email deliverability.
 
 ## Reports
 * __Recent Log Ins:__ Displays a list of users who have recently logged in. Useful for quickly checking that no CMS users are logged in, before pushing an update. Modified [/silverstripe/silverstripe-securityreport](https://github.com/silverstripe/silverstripe-securityreport).

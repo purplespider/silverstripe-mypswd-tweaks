@@ -2,9 +2,13 @@
 Name: sstweaks
 ---
 SilverStripe\Admin\LeftAndMain:
-  help_link: 'http://silverstripe.purplespider.com'
   extra_requirements_css: 
     - 'vendor/purplespider/mypswd-tweaks/client/dist/cms-tweaks.css'
+  extensions:
+    - PurpleSpider\SSTweaks\CMSMenuLinks
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+      - PurpleSpider\SSTweaks\CustomSiteConfig
 SilverStripe\Control\Email\Email:
   admin_email: noreply@website-notify.com
 SilverStripe\CMS\Model\VirtualPage:

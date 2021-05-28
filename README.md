@@ -20,6 +20,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __PageSettingsHidePermissions:__ Hides Page permission fields such as CanViewType and CanEditType.
 * __PageSettingsHideSearch:__ Hides the ShowInSearch settings field.
 * __MemberTidy:__ Hides ofen unused Member fields such as Time & Date format.
+* __CMSMenuLinks && CustomSiteConfig:__ Adds admin customisable CMS links to my custom help guide and analytics
 
 ## Extra Extensions
 * __CannotCreatePage:__ Apply this extension to page types that you don't want non-admin users to be able to create.

@@ -17,8 +17,8 @@ class CustomSiteConfig extends DataExtension {
 	public function updateCMSFields(FieldList $fields) {
     	
         if (Permission::check('ADMIN')) {
-            $fields->addFieldToTab("Root.Main", TextField::create('AnalyticsURL', 'Analytics URL'));
-            $fields->addFieldToTab("Root.Main", TextField::create('HelpGuideURL', 'Help Guide URL'));
+            $fields->addFieldToTab("Root.Admin", TextField::create('AnalyticsURL', 'Analytics URL'));
+            $fields->addFieldToTab("Root.Admin", TextField::create('HelpGuideURL', 'Help Guide URL'));
         }
         
 		return $fields;

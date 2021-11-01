@@ -2,18 +2,19 @@
 
 namespace PurpleSpider;
 
-use SilverStripe\Control\Director;
-use SilverStripe\Forms\FormField;
-use SilverStripe\Forms\GridField\GridField;
-use SilverStripe\Forms\GridField\GridFieldExportButton;
-use SilverStripe\Forms\GridField\GridFieldPrintButton;
 use SilverStripe\ORM\DataList;
 use SilverStripe\Reports\Report;
+use SilverStripe\Forms\FormField;
 use SilverStripe\Security\Member;
-use SilverStripe\Security\Permission;
+use SilverStripe\Control\Director;
 use SilverStripe\Security\Security;
-use SilverStripe\SecurityReport\Forms\GridFieldExportReportButton;
+use SilverStripe\Security\Permission;
+use SilverStripe\Forms\GridField\GridField;
+use SilverStripe\SessionManager\Models\LoginSession;
+use SilverStripe\Forms\GridField\GridFieldPrintButton;
+use SilverStripe\Forms\GridField\GridFieldExportButton;
 use SilverStripe\SecurityReport\Forms\GridFieldPrintReportButton;
+use SilverStripe\SecurityReport\Forms\GridFieldExportReportButton;
 
 class RecentLoginsReport extends Report
 {
@@ -27,12 +28,12 @@ class RecentLoginsReport extends Report
     private static $columns = array(
         // 'ID' => 'User ID',
         // 'LastLoggedIn' => 'Last Logged In',
-        'LastVisited.Ago' => 'Last Logged In',
-        'FirstName' => 'First Name',
-        'Surname' => 'Surname',
-        'Email' => 'Email',
-        'Created' => 'Date Created',
-        'LastVisited' => 'Last Logged In',
+        'LastAccessed.Ago' => 'Last Activity',
+        'Member.FirstName' => 'First Name',
+        'Member.Surname' => 'Surname',
+        'Member.Email' => 'Email',
+        'Member.Created' => 'Date Created',
+        'LastAccessed' => 'Last Activity',
     );
 
     protected $dataClass = Member::class;
@@ -44,7 +45,7 @@ class RecentLoginsReport extends Report
      */
     public function title()
     {
-        return 'Recent Log Ins';
+        return 'Recent Active Users';
     }
 
     /**
@@ -69,9 +70,9 @@ class RecentLoginsReport extends Report
     public function columns()
     {
         $columns = self::config()->columns;
-        if (!Security::config()->get('login_recording')) {
-            unset($columns['LastLoggedIn']);
-        }
+        // if (!Security::config()->get('login_recording')) {
+        //     unset($columns['LastLoggedIn']);
+        // }
         return $columns;
     }
 
@@ -111,7 +112,7 @@ class RecentLoginsReport extends Report
     public function sourceRecords()
     {
         // Get members sorted by ID
-        return Member::get()->sort('LastVisited DESC');
+        return LoginSession::get()->sort('LastAccessed DESC');
     }
 
     /**

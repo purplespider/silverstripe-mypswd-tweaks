@@ -24,6 +24,9 @@ SilverStripe\Security\Member:
   extensions:
     - PurpleSpider\SSTweaks\MemberTidy
     - PurpleSpider\SSTweaks\MemberLog
+SilverStripe\SessionManager\Models\LoginSession:
+  extensions:
+    - PurpleSpider\SSTweaks\LoginSessionExtension
 Page:
   extensions:
     - PurpleSpider\SSTweaks\PageHideDependent

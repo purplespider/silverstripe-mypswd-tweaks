@@ -21,6 +21,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __PageSettingsHideSearch:__ Hides the ShowInSearch settings field.
 * __MemberTidy:__ Hides ofen unused Member fields such as Time & Date format.
 * __CMSMenuLinks && CustomSiteConfig:__ Adds admin customisable CMS links to my custom help guide and analytics
+* __LoginSessionExtension:__ Required for `Recent Active Users` report (see below)
 
 ## Extra Extensions
 * __CannotCreatePage:__ Apply this extension to page types that you don't want non-admin users to be able to create.
@@ -65,7 +66,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __Send Test Email:__ A task to instantly send a test email to quickly check email deliverability.
 
 ## Reports
-* __Recent Log Ins:__ Displays a list of users who have recently logged in. Useful for quickly checking that no CMS users are logged in, before pushing an update. Modified [/silverstripe/silverstripe-securityreport](https://github.com/silverstripe/silverstripe-securityreport).
+* __Recent Active Users:__ Displays a list of users who have recently logged in. Useful for quickly checking that no CMS users are logged in, before performing maintenance. Modified [/silverstripe/silverstripe-securityreport](https://github.com/silverstripe/silverstripe-securityreport).
 
 
 ## Lang

@@ -61,3 +61,12 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 	border-left: 5px solid;
 	box-shadow: 0px 0px 10px #bbb;
 }
+
+/* HTMLEditorField: Optional .unstacked class. To use: ->addExtraClass('unstacked') */
+@media (min-width: 1200px) {
+	.cms-edit-form .form-group.htmleditor.unstacked .form__field-holder,
+    .form--inline .form-group.htmleditor.unstacked .form__field-holder,
+    .ss-insert-link .form__fieldgroup .form-group.htmleditor.unstacked .form__field-holder {
+        max-width: 66.666667% !important;
+    }
+}

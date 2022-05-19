@@ -70,3 +70,8 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
         max-width: 66.666667% !important;
     }
 }
+
+/* Elemental: Indents fields for improved block association  */
+.element-editor-editform {
+	margin-left: 36px;
+}

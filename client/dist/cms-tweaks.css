@@ -18,6 +18,11 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 	color: #89878b !important;
 }
 
+/* GridField: Reinstates bottom padding. Avoids below fields jutting up against it when GridField is empty or has pagination disabled. */
+.grid-field, .grid-field__table {
+    margin-bottom: 2.4616rem;
+}
+
 /* GridField: Hide pagination details from top */
 .grid-field__title + div > .pagination-records-number {
 	display: none;

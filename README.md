@@ -55,7 +55,6 @@ While it is possible to disable specific tweaks by removing the individual exten
 * __ForgotPasswordEmail.ss:__ Changes the wording and format of the forgotten password e-mail to make it a bit friendlier. 
 
 ## Modules
-* __[gorriecoe/silverstripe-devbuildkey](https://github.com/gorriecoe/silverstripe-devbuildkey):__ Provides the ability to press Alt+D to do a Dev/Build
 * __[wilr/silverstripe-googlesitemaps](https://github.com/wilr/silverstripe-googlesitemaps):__ Lets CMS users set certain (e.g. hidden) pages to not be indexed.
 * __[jonom/silverstripe-betternavigator](https://github.com/jonom/silverstripe-betternavigator):__ Added frontend flag for Draft/Live and shortcuts.
 * __[axllent/silverstripe-email-obfuscator](https://github.com/axllent/silverstripe-email-obfuscator):__ Automatically obfucates email addresses added in HTMLText fields/templates.

@@ -17,23 +17,23 @@ class FirstChildRedirect extends Page
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
-        
+
         $fields->addFieldToTab("Root.Main", new LiteralField("Desc", "<h2>First Child Redirect Page</h2><p>This page has no content, it has the type <strong>First Child Redirect Page</strong> and so automatically redirects to it's first child page.</p><p>
         To change this, edit the <strong>Page type</strong> via <strong>Settings</strong>, in the top right.
-        </p>"),'Metadata');
+        </p>"), 'Metadata');
         $fields->removeFieldFromTab("Root.Main", "Content");
-        
+
         return $fields;
     }
 }
 
-class FirstChildRedirect_Controller extends PageController
+class FirstChildRedirectController extends PageController
 {
-    
+
     public function init()
     {
         parent::init();
-     
+
         if ($this->Children()->Count()) {
             Controller::redirect($this->Children()->First()->AbsoluteLink());
         }

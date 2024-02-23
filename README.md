@@ -53,6 +53,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 ## Templates
 * __Email.ss:__ Sets font to sans-serif
 * __ForgotPasswordEmail.ss:__ Changes the wording and format of the forgotten password e-mail to make it a bit friendlier. 
+* __SiteTreeURLSegmentField.ss:__ Adds a "Copy URL" button. To help stop users from copying the draft link.
 
 ## Modules
 * __[wilr/silverstripe-googlesitemaps](https://github.com/wilr/silverstripe-googlesitemaps):__ Lets CMS users set certain (e.g. hidden) pages to not be indexed.

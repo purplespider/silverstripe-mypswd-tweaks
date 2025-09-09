@@ -80,3 +80,43 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 .element-editor-editform {
 	margin-left: 36px;
 }
+
+/* Recent Active Users Report: Grey out current user */
+.recent-logins-report .current-user {
+	opacity: 0.5;
+	color: #6c757d !important;
+}
+
+.recent-logins-report .current-user td {
+	color: #6c757d !important;
+}
+
+/* Recent Active Users Report: Highlight recent activity (< 5 minutes) */
+.recent-logins-report .recent-activity {
+	background-color: #d4edda !important;
+	border-left: 4px solid #28a745 !important;
+}
+
+.recent-logins-report .recent-activity td {
+	background-color: #d4edda !important;
+}
+
+/* Additional styling for better visibility */
+.recent-logins-report tbody tr.recent-activity {
+	background-color: #d4edda !important;
+}
+
+.recent-logins-report tbody tr.recent-activity td {
+	background-color: #d4edda !important;
+}
+
+/* Ensure current user styling takes precedence when both classes are present */
+.recent-logins-report .current-user.recent-activity {
+	background-color: #e8f4e8 !important;
+	opacity: 0.7;
+}
+
+.recent-logins-report .current-user.recent-activity td {
+	background-color: #e8f4e8 !important;
+	color: #495057 !important;
+}

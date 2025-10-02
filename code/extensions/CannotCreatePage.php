@@ -9,7 +9,7 @@ use SilverStripe\Forms\FieldList;
 class CannotCreatePage extends DataExtension
 {
   
-    public function canCreate($member = null, $context = array())
+    public function canCreate($member = null, $context = array()): ?bool
     {
         if ($config = $this->owner->config()->get('sstweaks_can_create')) {
             return true;

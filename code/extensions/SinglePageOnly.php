@@ -8,7 +8,7 @@ use SilverStripe\ORM\DataExtension;
 class SinglePageOnly extends DataExtension
 {
 
-    public function canCreate($members = null)
+    public function canCreate($members = null): ?bool
     {
         return !DataObject::get_one($this->owner->ClassName);
     }

@@ -27,7 +27,7 @@ class FirstChildRedirect extends Page
     }
 }
 
-class FirstChildRedirect_Controller extends PageController
+class FirstChildRedirectController extends PageController
 {
     
     public function init()

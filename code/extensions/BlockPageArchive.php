@@ -9,7 +9,7 @@ class BlockPageArchive extends DataExtension
 {
 
     // Stops Page Being Deleted
-    public function canDelete($members = null)
+    public function canDelete($members = null): ?bool
     {
         if (Permission::check('ADMIN')) {
             return true;
@@ -18,7 +18,7 @@ class BlockPageArchive extends DataExtension
     }
 
     // Stops Page Being Deleted from Live
-    public function canUnpublish($members = null)
+    public function canUnpublish($members = null): ?bool
     {
         if (Permission::check('ADMIN')) {
             return true;

@@ -1,10 +1,12 @@
 <?php
-$editor = SilverStripe\Forms\HTMLEditor\HtmlEditorConfig::get('cms');
+use SilverStripe\Forms\HTMLEditor\TinyMCEConfig;
+
+$editor = TinyMCEConfig::get('cms');
 $editor->removeButtons('underline','alignjustify');
 $editor->enablePlugins('hr');
 $editor->insertButtonsAfter('indent','hr');
-$editor->insertButtonsAfter('formatselect','styleselect');
-$editor->removeButtons('formatselect');
+$editor->insertButtonsAfter('blocks','styles');
+$editor->removeButtons('blocks');
 
 // Stops format styles being automatically imported from CSS, but enables ability to add custom styles using 'formats'
 $editor->setOptions([

@@ -27,7 +27,9 @@ class TestEmailTask extends BuildTask {
         ->setSubject("Test: {$config->Title} - {$domain}");
 
         if(isset($_GET['fail'])) {
-            $email->getSwiftMessage()->getHeaders()->addTextHeader('X-PM-Message-Stream', 'non-existant-broadcast-stream');
+            // Note: Custom headers for testing email failures may need to be adjusted
+            // depending on your email provider's requirements in Silverstripe 6
+            $email->getHeaders()->addTextHeader('X-PM-Message-Stream', 'non-existant-broadcast-stream');
         }
 
         if($email->send()) {

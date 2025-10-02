@@ -10,7 +10,8 @@ While it is possible to disable specific tweaks by removing the individual exten
  * James Cocker (ssmodulesgithub@pswd.biz)
  
 ## Requirements
- * Silverstripe 4.1+
+ * Silverstripe 6.0+
+ * For SilverStripe 4 related tweaks, see the 2.x branch.
  * For SilverStripe 3 related tweaks, see the 1.0 branch.
 
 ## Active Extensions

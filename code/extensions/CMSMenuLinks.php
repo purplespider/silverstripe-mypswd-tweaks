@@ -16,7 +16,7 @@ class CMSMenuLinks extends DataExtension {
             CMSMenu::add_link('Analytics',"Analytics",$config->AnalyticsURL,-3,array("target"=>"_blank"),'font-icon-menu-reports');
         }
 
-        $helpGuideURL = 'https://www.silverstripe.purplespider.com/?ssv=4';
+        $helpGuideURL = 'https://www.silverstripe.purplespider.com/?ssv=6';
         if ($config->HelpGuideURL) {
             $helpGuideURL = $config->HelpGuideURL;
         }

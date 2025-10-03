@@ -6,7 +6,6 @@ use SilverStripe\Dev\BuildTask;
 use SilverStripe\Control\Director;
 use SilverStripe\Assets\File;
 use SilverStripe\AssetAdmin\Controller\AssetAdmin;
-use SilverStripe\ORM\DB;
 
 class GenerateCMSThumbs extends BuildTask
 {

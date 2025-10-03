@@ -2,13 +2,13 @@
 
 namespace PurpleSpider\SSTweaks;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\ORM\DB;
 use SilverStripe\Forms\FieldList;
-use SilverStripe\ORM\DataExtension;
 use SilverStripe\Security\Security;
 use SilverStripe\Forms\ReadonlyField;
 
-class MemberLog extends DataExtension
+class MemberLog extends Extension
 {
     private static $db = [
         'LastVisited' => 'Datetime',

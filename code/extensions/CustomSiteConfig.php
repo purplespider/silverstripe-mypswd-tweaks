@@ -2,12 +2,12 @@
 
 namespace PurpleSpider\SSTweaks;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\TextField;
-use SilverStripe\ORM\DataExtension;
 use SilverStripe\Security\Permission;
 
-class CustomSiteConfig extends DataExtension {
+class CustomSiteConfig extends Extension {
 
 	private static $db = array(
 		'AnalyticsURL' => 'Varchar(255)',

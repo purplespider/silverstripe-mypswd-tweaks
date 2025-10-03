@@ -2,10 +2,10 @@
 
 namespace PurpleSpider\SSTweaks;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 
-class PageSettingsHideSearch extends DataExtension
+class PageSettingsHideSearch extends Extension
 {
 
     public function updateSettingsFields(FieldList $fields)

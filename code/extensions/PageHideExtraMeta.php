@@ -2,10 +2,10 @@
 
 namespace PurpleSpider\SSTweaks;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 
-class PageHideExtraMeta extends DataExtension
+class PageHideExtraMeta extends Extension
 {
 
     public function updateCMSFields(FieldList $fields)

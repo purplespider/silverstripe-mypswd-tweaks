@@ -2,10 +2,10 @@
 
 namespace PurpleSpider\SSTweaks;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Security\Member;
 
-class LoginSessionExtension extends DataExtension
+class LoginSessionExtension extends Extension
 {
     /**
      * @param Member $member

@@ -13,11 +13,7 @@ use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\SessionManager\Models\LoginSession;
 use SilverStripe\Forms\GridField\GridFieldPrintButton;
 use SilverStripe\Forms\GridField\GridFieldExportButton;
-use SilverStripe\SecurityReport\Forms\GridFieldPrintReportButton;
-use SilverStripe\SecurityReport\Forms\GridFieldExportReportButton;
-use SilverStripe\Forms\GridField\GridFieldDataColumns;
 use SilverStripe\View\Requirements;
-use SilverStripe\ORM\FieldType\DBDatetime;
 
 class RecentLoginsReport extends Report
 {

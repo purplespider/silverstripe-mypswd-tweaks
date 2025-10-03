@@ -2,11 +2,11 @@
 
 namespace PurpleSpider\SSTweaks;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\Admin\CMSMenu;
-use SilverStripe\ORM\DataExtension;
 use SilverStripe\SiteConfig\SiteConfig;
 
-class CMSMenuLinks extends DataExtension {
+class CMSMenuLinks extends Extension {
 
     function init() {
 

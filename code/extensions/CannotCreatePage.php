@@ -2,11 +2,8 @@
 
 namespace PurpleSpider\SSTweaks;
 
-use SilverStripe\ORM\DataExtension;
-use SilverStripe\Forms\TextField;
-use SilverStripe\Forms\FieldList;
-
-class CannotCreatePage extends DataExtension
+use SilverStripe\Core\Extension;
+class CannotCreatePage extends Extension
 {
   
     public function canCreate($member = null, $context = array())

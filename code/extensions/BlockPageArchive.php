@@ -2,10 +2,10 @@
 
 namespace PurpleSpider\SSTweaks;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Security\Permission;
 
-class BlockPageArchive extends DataExtension
+class BlockPageArchive extends Extension
 {
 
     // Stops Page Being Deleted

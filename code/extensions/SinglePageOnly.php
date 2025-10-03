@@ -2,10 +2,10 @@
 
 namespace PurpleSpider\SSTweaks;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\ORM\DataObject;
-use SilverStripe\ORM\DataExtension;
 
-class SinglePageOnly extends DataExtension
+class SinglePageOnly extends Extension
 {
 
     public function canCreate($members = null)

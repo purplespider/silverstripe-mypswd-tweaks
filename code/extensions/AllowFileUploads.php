@@ -2,10 +2,10 @@
 
 namespace PurpleSpider\SSTweaks;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Security\Permission;
 
-class AllowFileUploads extends DataExtension
+class AllowFileUploads extends Extension
 {
   
     public function canCreate($members = null)

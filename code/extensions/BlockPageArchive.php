@@ -5,11 +5,18 @@ namespace PurpleSpider\SSTweaks;
 use SilverStripe\Core\Extension;
 use SilverStripe\Security\Permission;
 
+/**
+ * BlockPageArchive Extension
+ *
+ * Disables ability to Archive or Unpublish a page for non-admin users.
+ * Useful for protecting important pages like HomePage.
+ */
+
 class BlockPageArchive extends Extension
 {
 
     // Stops Page Being Deleted
-    public function canDelete($members = null)
+    protected function canDelete($members = null)
     {
         if (Permission::check('ADMIN')) {
             return true;
@@ -18,7 +25,7 @@ class BlockPageArchive extends Extension
     }
 
     // Stops Page Being Deleted from Live
-    public function canUnpublish($members = null)
+    protected function canUnpublish($members = null)
     {
         if (Permission::check('ADMIN')) {
             return true;

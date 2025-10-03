@@ -6,9 +6,16 @@ use SilverStripe\Core\Extension;
 use SilverStripe\Admin\CMSMenu;
 use SilverStripe\SiteConfig\SiteConfig;
 
+/**
+ * CMSMenuLinks Extension
+ *
+ * Adds customizable CMS menu links for Analytics and Help Guide.
+ * Links are configured via CustomSiteConfig extension in SiteConfig.
+ */
+
 class CMSMenuLinks extends Extension {
 
-    function init() {
+    protected function onInit() {
 
         $config = SiteConfig::current_site_config();
 
@@ -23,5 +30,5 @@ class CMSMenuLinks extends Extension {
 
         CMSMenu::add_link('Help',"Help",$helpGuideURL,-3,array("target"=>"_blank"),'font-icon-white-question');
     }
-   
+
 }

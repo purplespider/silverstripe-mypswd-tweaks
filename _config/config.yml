@@ -2,13 +2,13 @@
 Name: sstweaks
 ---
 SilverStripe\Admin\LeftAndMain:
-  extra_requirements_css: 
-    - 'vendor/purplespider/mypswd-tweaks/client/dist/cms-tweaks.css'
+  extra_requirements_css:
+    - "vendor/purplespider/mypswd-tweaks/client/dist/cms-tweaks.css"
   extensions:
     - PurpleSpider\SSTweaks\CMSMenuLinks
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-      - PurpleSpider\SSTweaks\CustomSiteConfig
+    - PurpleSpider\SSTweaks\CustomSiteConfig
 SilverStripe\Control\Email\Email:
   admin_email: noreply@website-notify.com
 SilverStripe\CMS\Model\VirtualPage:
@@ -34,7 +34,5 @@ Page:
     - PurpleSpider\SSTweaks\PageSettingsHidePermissions
     - PurpleSpider\SSTweaks\PageSettingsHideSearch
 PSWDSite\HomePage:
-    extensions:
-        - PurpleSpider\SSTweaks\BlockPageArchive
-gorriecoe\DevBuildKey\DevBuildKey:
-    run_in_background: true
+  extensions:
+    - PurpleSpider\SSTweaks\SinglePageOnly

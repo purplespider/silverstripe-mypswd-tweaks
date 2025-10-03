@@ -8,6 +8,13 @@ use SilverStripe\Forms\FieldList;
 use SilverStripe\Security\Security;
 use SilverStripe\Forms\ReadonlyField;
 
+/**
+ * MemberLog Extension
+ *
+ * Tracks member login activity by recording LastVisited datetime and
+ * NumVisit count. Displays this information in the Member edit form.
+ */
+
 class MemberLog extends Extension
 {
     private static $db = [
@@ -15,17 +22,17 @@ class MemberLog extends Extension
         'NumVisit' => 'Int',
     ];
 
-    public function afterMemberLoggedIn()
+    protected function onAfterMemberLoggedIn()
     {
         $this->logVisit();
     }
 
-    public function memberAutoLoggedIn()
+    protected function memberAutoLoggedIn()
     {
         $this->logVisit();
     }
 
-    public function updateCMSFields(FieldList $fields)
+    protected function updateCMSFields(FieldList $fields)
     {
         $fields->addFieldsToTab('Root.Main', [
             ReadonlyField::create('LastVisited', 'Last visited'),

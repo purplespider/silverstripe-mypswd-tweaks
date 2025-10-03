@@ -9,7 +9,7 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 }
 
 /* Hides Pages that can't be created in Add page list */
-#Form_AddForm_PageType div.disabled { 
+#Form_AddForm_RecordType div.disabled { 
     display: none !important;
 }
 
@@ -46,25 +46,9 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 
 /* CMS Tabs: Increase L/R padding */
 .ui-tabs .ui-tabs-nav li a {
-	padding-left: .7rem;
-	padding-right: .7rem;
+	/* padding-left: .7rem !important;
+	padding-right: .7rem !important; */
 	font-weight: 500 !important;
-}
-
-/* Toast notification adjustments - stops them overlapping top tabs */
-.notice-wrap {
-	top:64px;
-}
-
-.notice-item.good {
-	border-color: #008B00;
-}
-
-.notice-item {
-	font-size: 12px;
-	min-height: 50px;
-	border-left: 5px solid;
-	box-shadow: 0px 0px 10px #bbb;
 }
 
 /* HTMLEditorField: Optional .unstacked class. To use: ->addExtraClass('unstacked') */

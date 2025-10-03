@@ -13,12 +13,12 @@
 		"issues": "https://github.com/purplespider/silverstripe-mypswd-tweaks/issues"
 	},
 	"require": {
-		"silverstripe/framework": "^4.9",
-		"silverstripe/cms": "^4.9",
+		"silverstripe/framework": "^6",
+		"silverstripe/cms": "^6",
 		"wilr/silverstripe-googlesitemaps": "*",
 		"jonom/silverstripe-betternavigator": "*",
 		"axllent/silverstripe-email-obfuscator": "*",
-		"kinglozzer/metatitle": "^2.0"
+		"kinglozzer/metatitle": "^4"
 	},
 	"extra": {
 		"expose": [

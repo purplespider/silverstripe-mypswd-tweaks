@@ -1,4 +1,6 @@
 en:
   SilverStripe\UserForms\Model\UserDefinedForm:
-    SINGULARNAME: 'Form Page'
-    DESCRIPTION: 'Page with a single customizable form.'
+    SINGULARNAME: "Form Page"
+    DESCRIPTION: "Page with a single customizable form."
+  SilverStripe\Admin\LeftAndMain:
+    AddNew: "Add {name}"

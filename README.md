@@ -53,6 +53,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 -   **Hide Disabled Pages from Add New:** Pages that can't be created are now hidden from the Add page list, rather than being greyed out.
 -   **Hide GridField Pagination Details:** From above a GridField only, to avoid the gap below the GridField title.
 -   **GridField: Vertical Align Middle:** Set cells of GridField to vertical align middle. Looks nicer, especially with centered icons and drag handles.
+-   **Fix SS6 Button Wrapping:** Fixes wrapping of "Batch actions" button by changing "Add new page" to "Add page" and reducing margin.
 
 ## Templates
 

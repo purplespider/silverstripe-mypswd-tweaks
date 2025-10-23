@@ -104,3 +104,22 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 	background-color: #e8f4e8 !important;
 	color: #495057 !important;
 }
+
+/* SS6 fixes for sitetree button wrapping */
+.btn-toolbar {
+	gap: 5px;
+}
+
+.btn-toolbar>.btn:not(:first-child) {
+	margin-left: 0;
+}
+
+.cms-content-toolbar {
+	padding-top: 12px;
+}
+
+.cms-content-header,
+.cms-content-toolbar {
+	padding-left: 17px;
+	padding-right: 10px;
+}

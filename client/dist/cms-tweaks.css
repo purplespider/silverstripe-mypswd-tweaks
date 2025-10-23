@@ -123,3 +123,7 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 	padding-left: 17px;
 	padding-right: 10px;
 }
+
+.cms-content-header .cms-content-header-info .view-controls .btn {
+	margin-right: 0px;
+}

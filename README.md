@@ -12,7 +12,9 @@ While it is possible to disable specific tweaks by removing the individual exten
 
 ## Requirements
 
--   Silverstripe 4.1+
+-   Silverstripe 6.0+
+-   For SilverStripe 5 related tweaks, see the 6.3.0 tag or earlier.
+-   For SilverStripe 4 related tweaks, see the 5.x branch.
 -   For SilverStripe 3 related tweaks, see the 1.0 branch.
 
 ## Active Extensions
@@ -45,6 +47,8 @@ While it is possible to disable specific tweaks by removing the individual exten
 -   **Set Admin Email:** Set's the Admin Email address to a noreply address for which I control the SPF. Better than no address at all, which can result in forgotten password e-mails flagged as spam.
 -   **Disable TinyMCE Icons:** Disables some icons such as underline.
 -   **Enable TinyMCE Styles:** Enables the Styles dropdown for custom styles.
+-   **Disable TinyMCE Table Appearance Options:** Disables table cell spacing, cell padding, border, and caption fields in table dialogs.
+-   **Disable TinyMCE Table Advanced Tabs:** Hides the Advanced tab in Cell and Row properties dialogs, removing border color and background color options.
 
 ## CMS CSS
 

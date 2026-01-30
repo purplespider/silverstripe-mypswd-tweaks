@@ -70,6 +70,7 @@ While it is possible to disable specific tweaks by removing the individual exten
 -   **[jonom/silverstripe-betternavigator](https://github.com/jonom/silverstripe-betternavigator):** Added frontend flag for Draft/Live and shortcuts.
 -   **[axllent/silverstripe-email-obfuscator](https://github.com/axllent/silverstripe-email-obfuscator):** Automatically obfucates email addresses added in HTMLText fields/templates.
 -   **[kinglozzer/metatitle](https://github.com/kinglozzer/silverstripe-metatitle):** Adds editable metatitle field for each page.
+-   **[purplespider/silverstripe-assets-cachebusting](https://github.com/purplespider/silverstripe-assets-cachebusting):** Automatically adds cache-busting query strings to asset URLs to fix Cloudflare caching issues.
 
 ## Tasks
 

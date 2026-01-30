@@ -18,7 +18,8 @@
 		"wilr/silverstripe-googlesitemaps": "*",
 		"jonom/silverstripe-betternavigator": "*",
 		"axllent/silverstripe-email-obfuscator": "*",
-		"kinglozzer/metatitle": "^4"
+		"kinglozzer/metatitle": "^4",
+		"purplespider/silverstripe-assets-cachebusting": "^1.0"
 	},
 	"extra": {
 		"expose": [

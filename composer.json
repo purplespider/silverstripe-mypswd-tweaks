@@ -20,7 +20,7 @@
 		"axllent/silverstripe-email-obfuscator": "*",
 		"kinglozzer/metatitle": "^4",
 		"purplespider/silverstripe-assets-cachebusting": "^2.0",
-		"purplespider/silverstripe-page-type-tester": "^1.0"
+		"purplespider/silverstripe-page-type-status-checker": "^1.0"
 	},
 	"extra": {
 		"expose": [

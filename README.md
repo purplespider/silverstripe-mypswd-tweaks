@@ -31,8 +31,17 @@ While it is possible to disable specific tweaks by removing the individual exten
 ## Extra Extensions
 
 -   **CannotCreatePage:** Apply this extension to page types that you don't want non-admin users to be able to create.
--   **BlockPageArchive:** Disables ability to Archive or Unpublish a page that extends this. Applied to HomePage by default.
--   **SinglePageOnly:** Can to applied to any page type, so only 1 can be created. Useful for keeping the Add New page type list tidy.
+-   **BlockPageArchive:** Disables ability to Archive or Unpublish a page that extends this. Useful for protecting important pages such as the homepage.
+-   **SinglePageOnly:** Can be applied to any page type, so only 1 can be created. Useful for keeping the Add New page type list tidy.
+
+These are not applied by the module, as the page class names differ per project. Apply them in the project's own YAML config, for example:
+
+```yaml
+MyProject\MySite\HomePage:
+  extensions:
+    - PurpleSpider\SSTweaks\SinglePageOnly
+    - PurpleSpider\SSTweaks\BlockPageArchive
+```
 
 ## Page Types
 

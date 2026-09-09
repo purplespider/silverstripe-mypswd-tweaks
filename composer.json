@@ -15,6 +15,7 @@
 	"require": {
 		"silverstripe/framework": "^6",
 		"silverstripe/cms": "^6",
+		"silverstripe/htmleditor-tinymce": "^1.1",
 		"wilr/silverstripe-googlesitemaps": "*",
 		"jonom/silverstripe-betternavigator": "*",
 		"axllent/silverstripe-email-obfuscator": "*",

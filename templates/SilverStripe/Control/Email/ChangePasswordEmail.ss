@@ -52,7 +52,7 @@
 							<table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin: 30px 0;">
 								<tr>
 									<td align="center">
-										<a href="{$AbsoluteBaseURL}Security/changepassword" style="display: inline-block; padding: 14px 32px; background-color: #C8122C; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 16px; border-radius: 6px;">
+										<a href="{$AbsoluteBaseURL}/Security/changepassword" style="display: inline-block; padding: 14px 32px; background-color: #C8122C; color: #ffffff; text-decoration: none; font-weight: 600; font-size: 16px; border-radius: 6px;">
 											Reset My Password Now
 										</a>
 									</td>
@@ -60,7 +60,7 @@
 							</table>
 
 							<p style="margin: 0 0 20px; color: #555555; font-size: 14px; text-align: center;">
-								<a href="{$AbsoluteBaseURL}Security/changepassword" style="color: #015A93; word-break: break-all;">{$AbsoluteBaseURL}Security/changepassword</a>
+								<a href="{$AbsoluteBaseURL}/Security/changepassword" style="color: #015A93; word-break: break-all;">{$AbsoluteBaseURL}/Security/changepassword</a>
 							</p>
 
 							<p style="margin: 25px 0 0; color: #888888; font-size: 13px;">

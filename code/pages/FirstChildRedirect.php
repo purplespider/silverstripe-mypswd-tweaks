@@ -17,9 +17,9 @@ class FirstChildRedirect extends Page
 {
     private static string $table_name = 'FirstChildRedirect';
 
-    private static string $description = "Automatically redirects to the first child of this page";
+    private static string $class_description = "Automatically redirects to the first child of this page";
 
-    private static string $icon_class = 'font-icon-p-redirect';
+    private static string $cms_icon_class = 'font-icon-p-redirect';
 
     public function getCMSFields()
     {
@@ -39,11 +39,12 @@ class FirstChildRedirectController extends PageController
     public function index()
     {
         // Redirect to first child if it exists
-        if ($this->data()->Children()->Count()) {
-            return $this->redirect($this->data()->Children()->First()->Link());
+        $firstChild = $this->data()->Children()->first();
+        if ($firstChild) {
+            return $this->redirect($firstChild->Link());
         }
 
-        // No children, return normal page response
-        return parent::index();
+        // No children, render the page as normal (controllers have no parent index() to call)
+        return $this->render();
     }
 }

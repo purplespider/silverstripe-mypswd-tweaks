@@ -4,6 +4,8 @@ Name: sstweaks
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
     - "vendor/purplespider/mypswd-tweaks/client/dist/cms-tweaks.css"
+  extra_requirements_javascript:
+    - "vendor/purplespider/mypswd-tweaks/client/dist/url-copy.js"
   extensions:
     - PurpleSpider\SSTweaks\CMSMenuLinks
 SilverStripe\SiteConfig\SiteConfig:

@@ -22,12 +22,12 @@ class AllowFileUploads extends DataExtension
         }
     }
     
-    public function canView($members = null)
-    {
-        if (Permission::check('CMS_ACCESS_CMSMain')) {
-            return true;
-        }
-    }
+    // public function canView($members = null)
+    // {
+    //     if (Permission::check('CMS_ACCESS_CMSMain')) {
+    //         return true;
+    //     }
+    // }
     
     public function canDelete($members = null)
     {

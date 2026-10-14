@@ -127,3 +127,21 @@ li.class-SilverStripe_ErrorPage_ErrorPage {
 .cms-content-header .cms-content-header-info .view-controls .btn {
 	margin-right: 0px;
 }
+
+
+/* URL segment field: Copy link / Edit buttons (see templates/SilverStripe/CMS/Forms/SiteTreeURLSegmentField.ss) */
+.field.urlsegment .preview-holder {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: .25rem .75rem;
+}
+
+.field.urlsegment .preview-holder .URL-link {
+	padding-top: 0;
+	word-break: break-all;
+}
+
+.field.urlsegment .url-copy {
+	white-space: nowrap;
+}

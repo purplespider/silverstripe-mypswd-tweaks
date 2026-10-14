@@ -13,8 +13,8 @@ While it is possible to disable specific tweaks by removing the individual exten
 ## Requirements
 
 -   Silverstripe 6.0+
--   For SilverStripe 5 related tweaks, see the 6.3.0 tag or earlier.
--   For SilverStripe 4 related tweaks, see the 5.x branch.
+-   For SilverStripe 5 related tweaks, see the ss5 branch (5.x tags).
+-   For SilverStripe 4 related tweaks, see the ss4 branch (4.x tags).
 -   For SilverStripe 3 related tweaks, see the 1.0 branch.
 
 ## Active Extensions
@@ -71,7 +71,7 @@ MyProject\MySite\HomePage:
 ## Templates
 
 -   **ForgotPasswordEmail.ss:** Changes the wording and format of the forgotten password e-mail to make it a bit friendlier.
--   **SiteTreeURLSegmentField.ss:** Adds a "Copy URL" button. To help stop users from copying the draft link.
+-   **SiteTreeURLSegmentField.ss:** Adds a "Copy link" button next to the page URL, so users copy the published URL rather than the `?stage=Stage` draft link. Shows "Copied" when it works, copies the site root for the homepage, and follows unsaved edits to the URL segment.
 
 ## Modules
 
